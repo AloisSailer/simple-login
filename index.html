@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tela de Login</title>
+    <style>
+      body {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+          'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-image: linear-gradient(45deg, cyan, yellow);
+      }
+
+      div {
+        background-color: rgba(0, 0, 0, 0.7);
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 80px;
+        border-radius: 15px;
+      }
+
+      h1 {
+        margin-bottom: 0;
+      }
+
+      input {
+        padding: 15px;
+        border: none;
+        outline: none;
+        border-radius: 10px;
+        font-size: 15px;
+        margin-top: 15px;
+        font-weight: 700;
+      }
+
+      button {
+        background-color: dodgerblue;
+        border: none;
+        padding: 15px;
+        width: 100%;
+        margin-top: 15px;
+        color: white;
+        font-size: 15px;
+        border-radius: 10px;
+        font-weight: 700;
+        letter-spacing: 1px;
+      }
+
+      button:hover {
+        background-color: deepskyblue;
+        cursor: pointer;
+        font-weight: 900;
+        letter-spacing: 2px;
+        transition: 0.5s;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Login</h1>
+      <br />
+      <input type="text" placeholder="Nome" /><br />
+      <input type="password" placeholder="Senha" /><br />
+      <button>Enviar</button>
+    </div>
+  </body>
+</html>
